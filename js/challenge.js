@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", ready());
     })
     document.getElementById('pause').addEventListener("click",(e)=>{
         if(paused){
-            ready();
+            ready;
 
         document.getElementById('pause').innerText = "pause";
         }
