@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", ready());
         document.getElementById('pause').innerText = "resume";
         paused  = true;
     }})
-    let comments = 0
+    let comments = true
     document.getElementById("comment-form").addEventListener("submit",(e)=>{
         e.preventDefault();
         let text  = document.getElementById("comment-input").value;
