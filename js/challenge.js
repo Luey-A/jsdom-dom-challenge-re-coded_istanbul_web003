@@ -17,4 +17,4 @@ document.addEventListener("DOMContentLoaded", ready());
         document.querySelector('.likes').innerHTML  +=`
         <li>Liked at ${i}</li>
         `
-    })
+  
