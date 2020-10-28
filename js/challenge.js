@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", ready());
     document.getElementById("comment-form").addEventListener("submit",(e)=>{
         e.preventDefault();
         let text  = document.getElementById("comment-input").value;
-        comments++;
+        comments+;
         document.getElementById("list").innerHTML+= `
         <h5>Comment ${comments}:</h5>
         <p>${text}<p>`
